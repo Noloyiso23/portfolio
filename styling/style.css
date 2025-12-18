@@ -448,4 +448,16 @@ footer p:first-child {
     content: "";
     display: table;
     clear: both;
+
 }
+#n{
+    border-style: solid;
+    border-color: white;
+    background-color: black;
+    color: gold;
+}
+#no{
+    border-style:solid;
+    border-color:black;
+    background-color: white;
+    color:gold;
