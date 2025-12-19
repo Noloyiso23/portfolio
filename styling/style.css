@@ -297,7 +297,7 @@ body {
     display: inline-block;
 }
 .view-link{
-    backgroung-color:white;
+    backgroung-color:gray;
 }
 
 .repo-link {
@@ -486,6 +486,7 @@ footer p:first-child {
     clear: both;
 
 }
+
 
 
 
