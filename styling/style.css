@@ -271,6 +271,42 @@ body {
     color: slategray;
 }
 
+.project-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.project-item h4 {
+    margin-top: 0;
+    color: black;
+}
+
+.project-links {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.view-link, .repo-link {
+    padding: 8px 15px;
+    color: gold;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+}
+.view-link{
+    backgroung-color:white;
+}
+
+.repo-link {
+    background-color: black;
+}
+
+.view-link:hover, .repo-link:hover {
+    opacity: 0.9;
+}
 .contact-container {
     display: flex;
     flex-wrap: wrap;
@@ -450,17 +486,6 @@ footer p:first-child {
     clear: both;
 
 }
-#n{
-    border-radius:20px;
-    border-style: solid;
-    border-color: white;
-    background-color: black;
-    color: gold;
-}
-#no{
-    border-radius:20px;
-    border-style:solid;
-    border-color:black;
-    background-color: white;
-    color:gold;
+
+
 
